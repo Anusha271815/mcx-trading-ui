@@ -1,6 +1,6 @@
-import SignalCard from "@/components/market/SignalCard";
-import SignalReason from "@/components/alerts/SignalReason";
-import SignalPriceChart from "@/components/charts/SignalPriceChart";
+import SignalCard from "../market/SignalCard";
+import SignalReason from "../alerts/SignalReason";
+import SignalPriceChart from "../charts/SignalPriceChart";
 
 export default function TradingSignalsPage() {
   return (

@@ -4,7 +4,8 @@ export interface NewsItem {
     source: string;
     sentiment: "positive" | "neutral" | "negative";
     published_at: string;
-    url?: string;
+    link?: string;
+    tags?: string[]; 
   }
   
   export interface NewsResponse {

@@ -7,6 +7,7 @@ import NewsCard from "@/components/dashboard/NewsCard";
 import MetricsSummary from "@/components/analytics/metrics";
 import PriceChart from "@/components/charts/PriceChart";
 import RecentTrades from "@/components/charts/recentTrade";
+import GlobalMarketsPanel from "@/components/market/GlobalMarketsPanel";
 import {
   LayoutDashboard,
   CandlestickChart,
@@ -46,6 +47,7 @@ export default function DashboardPage() {
             <div className="space-y-6">
               <MetricsSummary />
               <VerdictCard />
+
             </div>
           )}
 
@@ -53,6 +55,7 @@ export default function DashboardPage() {
             <div className="space-y-6">
               <PriceChart />
               <MarketDataGrid />
+              <GlobalMarketsPanel />
             </div>
           )}
 
